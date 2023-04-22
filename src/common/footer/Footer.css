@@ -1,6 +1,7 @@
 .foot-cont{
   display: flex;
-  background-color:  #b4b1f8;
+  color: aliceblue;
+  background-color: #23528d;
 }
 
 .foot-left{
