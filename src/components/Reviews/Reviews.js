@@ -5,10 +5,13 @@ const Reviews = ({darkMode}) => {
     <>
 
     <div className={darkMode?'flash-dark body':'body'} >
-        <h1 className='review-head' >Testimonials</h1>
+    <h1 className='review-head' >Testimonials</h1>
+        
         <div className={darkMode?'dark-outerdiv':'light outerdiv'}>
+        
             
             <div className="innerdiv">
+            
             <div className="div1 eachdiv">
                 <div className="userdetails">
                 <div className="imgbox">

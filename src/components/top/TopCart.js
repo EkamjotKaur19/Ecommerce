@@ -11,7 +11,6 @@ const TopCart = ({darkMode}) => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
   }
   return (
     <>
@@ -25,6 +24,7 @@ const TopCart = ({darkMode}) => {
                   <span className='tright'>{value.desc}</span>
                 </div>
                 <div className='img'>
+
                   <img src={value.cover} alt='' />
                 </div>
               </div>

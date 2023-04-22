@@ -58,18 +58,17 @@ const Products = ({darkMode}) => {
                         <div className={darkMode?'flash-dark col-md-4 mb-2 mt-2 mr-4 ml-4 box2-pdt' : 'col-md-4 mb-2 mt-2 mr-4 ml-4 box2-pdt'} key={product.id}>
                             <div className={darkMode?'flash-dark card text-center cardss':"card text-center cardss"}>
                                 <img src={product.image} className={darkMode?'flash-dark card-img-top' :'card-img-top'} alt={product.title}  height="250px" />
-                                <div className={darkMode?'flash-dark card-body' :"card-body"}>
+                                
+                            </div>
+                            <div className={darkMode?'flash-dark card-body' :"card-body"}>
                                     <h5 className="card-title mb-0 name">
                                         {product.title.substr(0,19)}
                                     </h5>
                                     <p className="card-text lead fw-bold price">
-                                        ${product.price}
+                                        Rs {product.price*100}
                                     </p>
-                                    <a href="#" className="btn buy-btnn btn-outline-dark">
-                                        <p className='btn-text'>Buy Now</p>
-                                    </a>
+                                        <button className='btn-text'>Buy Now</button>
                                 </div>
-                            </div>
                         </div>
                 )
                 })}

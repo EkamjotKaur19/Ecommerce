@@ -1,7 +1,8 @@
 
 .box-pdt{
-    margin-left: 11%;
+    margin-left: 15%;
 }
+
 
 .flash-dark{
     background: black;
@@ -13,18 +14,18 @@
     color:white;
 }
 
-.buy-btn{
-    color:white;
-}
+
 
 .row-box{
     width:90%;
 }
 
-.cardss{
-    background-color: rgb(255, 255, 255);
-    
+.card-body{
+    background-color: rgb(189, 203, 244);
+    height:120px;
 }
+
+
 
 .cards:hover{
     background-color: rgb(209, 206, 206);
@@ -33,8 +34,14 @@
 
 .box2-pdt{
     height: 400px;
-    width: 25%;
+    width: 28%;
     background-color: rgb(255, 255, 255);
+    
+}
+
+.box2-pdt:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
     
 }
 
@@ -53,15 +60,13 @@
     scale: 1.05;
     
 }
-.buy-btnn{
-    background-color: rgb(104, 111, 172);
-    color: aliceblue;
-    padding: 5px;
-}
 
 .btn-text{
-    color: aliceblue;
-    
+    background-color: rgb(37, 55, 251);
+    padding: 2.5%;
+    border-radius: 10px;
+    color: white;
+
 }
 
 .filter-section{
