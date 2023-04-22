@@ -1,10 +1,10 @@
 import React from 'react'
-import Team from './Team'
+import Team2 from './Team'
 
 const About = ({darkMode}) => {
   return (
     <div>
-      <Team darkMode={darkMode}/>
+      <Team2 darkMode={darkMode}/>
     </div>
   )
 }

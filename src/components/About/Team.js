@@ -1,46 +1,87 @@
 import React from 'react'
 import { member } from './data'
-import "./About.css"
+import "./Team.css"
 
 const Team = ({darkMode}) => {
   return (
-    <div className={darkMode? 'team-cont flash-dark': 'team-cont'}>
-        <div className="team-heads">
-            <h1 className={darkMode?'white':'head-strong'}>Our Amazing Team</h1>
-            <h5 className='head-light'>We are strong together</h5>
+    <div className="responsive-container-block container">
+  <p className={darkMode ? "text-blk-dark team-head-text" : "text-blk team-head-text"}>
+    Our Team
+  </p>
+  
+    <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div className="card">
+        <div className="team-image-wrapper">
+          <img className="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"/>
         </div>
-        <hr className='team'/>
-        <div className={darkMode?'flash-dark box-team' : "box-team"}>
-            <div className="row row-box">
-            {member.map((member)=>{
-                return(
-                <div className={darkMode?  'flash-dark col-md-4 mb-4 mt-4 mr-4 ml-4 box2':'col-md-4 mb-4 mt-4 mr-4 ml-4 box2'} key={member.id}>
-                    <div className="card text-center p-4 cardss">
-                        <img src={member.image} className='card-img-top img' alt={member.id}  height="250px" />
-                        <div className="card-body">
-                            <h5 className="card-title title2 mb-0">
-                                {member.name}
-                            </h5>
-                            <p className="card-text title3 lead fw-bold">
-                                {member.role}
-                            </p>
-                            <p className="desc-member">
-                                {member.text}
-                            </p>
-
-                            <div className="social">
-                                <i class="fa-brands fa-facebook-f foot-icon fb"></i>
-                                <i className="fa-brands fa-instagram foot-icon insta"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                )})}
-                
-            </div>
+        <p className="text-blk name">
+          Ekamjot 
+        </p>
+        <p className="text-blk position">
+          Web Developer
+        </p>
+        <p className="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div className="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img className="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"/>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img className="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"/>
+          </a>
         </div>
-      
+      </div>
     </div>
+    <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div className="card">
+        <div className="team-image-wrapper">
+          <img className="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"/>
+        </div>
+        <p className="text-blk name">
+          Ekamjot
+        </p>
+        <p className="text-blk position">
+          CEO
+        </p>
+        <p className="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div className="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img className="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"/>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img className="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div className="card">
+        <div className="team-image-wrapper">
+          <img className="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"/>
+        </div>
+        <p className="text-blk name">
+          Ekamjot
+        </p>
+        <p className="text-blk position">
+          Web Developer
+        </p>
+        <p className="text-blk feature-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div className="social-icons">
+          <a href="https://www.twitter.com" target="_blank">
+            <img className="twitter-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon.svg"/>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img className="facebook-icon" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Icon-1.svg"/>
+          </a>
+        </div>
+      </div>
+  </div>
+</div>
   )
 }
 
