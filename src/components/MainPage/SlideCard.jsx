@@ -1,10 +1,11 @@
 import React from "react"
 import Sdata from "./Sdata"
 import Slider from "react-slick"
+import { Link } from "react-router-dom"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-const SlideCard = () => {
+const SlideCard = ({darkMode}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -21,13 +22,13 @@ const SlideCard = () => {
         {Sdata.map((value, index) => {
           return (
             <>
-              <div className='box d_flex top' key={index}>
+              <div className={darkMode ?'slide-box boxx box d_flex top' : ' slide-box box d_flex top'}key={index}>
                 <div className='left'>
-                  <h1>{value.title}</h1>
-                  <p>{value.desc}</p>
-                  <button className='btn-primary'>Visit Collections</button>
+                  <h1 className="slide-head">{value.title}</h1>
+                  <p className="slide-para">{value.desc}</p>
+                  <Link to='/products'><button className='btn-primary'>Visit Collections</button></Link>
                 </div>
-                <div className='right'>
+                <div className='slide-right right'>
                   <img src={value.cover} alt='' />
                 </div>
               </div>

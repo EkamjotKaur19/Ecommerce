@@ -1,12 +1,12 @@
 import React from "react"
 import SlideCard from "./SlideCard"
 
-const SliderHome = () => {
+const SliderHome = ({darkMode}) => {
   return (
     <>
       <section className='homeSlide contentWidth'>
         <div className='container'>
-          <SlideCard />
+          <SlideCard darkMode={darkMode}/>
         </div>
       </section>
     </>

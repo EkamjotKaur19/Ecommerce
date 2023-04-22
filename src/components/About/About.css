@@ -1,0 +1,114 @@
+
+.box-team{
+    margin-left: 7%;
+    margin-top: 0;
+
+}
+
+.img{
+    align-items: center;
+    width:60%;
+    border-radius: 30px;
+    height:60%
+}
+.flash-dark{
+    background: black;
+    color:white
+}
+
+.box2{
+    border: none;
+}
+
+.row-box{
+    width:94%;
+}
+
+.cardss{
+    background-color: #eeeff0;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    
+}
+
+.cards:hover{
+    background-color: rgb(172, 170, 170);
+}
+
+.box2{
+    height: 500px;
+}
+
+.box2:hover{
+    opacity:0.9;
+    scale: 1.05;
+    transition: 0.7s;
+    
+}
+
+.head-strong{
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.white{
+    color: #e9f5f5;
+}
+
+.flash-dark{
+    background: black;
+}
+.head-light{
+    margin-top: 20px;
+    font-weight: 100;
+    opacity: 0.6;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    height: 0px;
+    box-shadow: 0 1px 4px 1px cornflowerblue;
+    margin-bottom: 0;
+  }
+
+.title2 {
+    text-transform: uppercase;
+    color: #030303;
+    text-decoration:underline;
+    margin-bottom: 10px;
+}
+.title3{
+    color: rgb(126, 125, 125);
+}
+
+.desc-member{
+    color: rgb(67, 68, 68);
+    font-size: 10px;
+}
+
+
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .fb{
+    background-color: rgb(84, 84, 237);
+    color:#e9f5f5
+  }
+  
+  .insta{
+    background-color:rgb(221, 37, 141);
+    color:#e9f5f5
+  }
+
+  

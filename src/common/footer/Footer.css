@@ -1,0 +1,103 @@
+.foot-cont{
+  display: flex;
+  background-color:  #b4b1f8;
+}
+
+.foot-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.foot-left-title{
+  margin-bottom: 20px;
+}
+
+.foot-desc{
+  margin: 0px 0px 15px;
+}
+
+.social{
+  display: flex;
+}
+
+.foot-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size:1.5rem;
+  color: rgb(5, 5, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.fb{
+  background-color: rgb(84, 84, 237);
+  color:#e9f5f5
+}
+
+.insta{
+  background-color:rgb(221, 37, 141);
+  color:#e9f5f5
+}
+
+.tt{
+  background-color:darkturquoise;
+  color:#e9f5f5
+}
+
+.pin{
+  background-color:rgb(220, 43, 43);
+  color:#e9f5f5
+}
+
+.foot-center{
+  flex: 1;
+  padding: 20px;
+}
+
+.foot-center-title{
+  margin-bottom: 20px;
+}
+
+.foot-links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.foot-right{
+  flex: 1;
+  padding: 20px;
+}
+
+.foot-right-title{
+  margin-bottom: 20px;
+}
+
+.contact-item{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.navi{
+  background-color: rgb(63, 211, 43);
+  color: rgb(242, 237, 237);
+}
+
+.env{
+  background-color: rgb(240, 105, 15);
+  color: rgb(242, 237, 237);
+}

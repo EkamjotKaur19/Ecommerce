@@ -1,0 +1,38 @@
+.card-check{
+    padding: 1rem 1.3rem;
+    width:35vw;
+    height:auto;
+    background: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    margin:3%;
+  
+  }
+
+  .card-head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background:  url('./images/OIP.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-title{
+    font-size:1rem;
+    font-weight: bolder;
+    text-align:center;
+    padding-bottom:0.5em;
+    text-transform:uppercase;
+    letter-spacing:3px;
+  }
+  .section{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;align-items: center;
+  }
+  /*=====STYLING FOR CARD COMPONENT =======*/
+  
+  @media screen and (max-width:400px){
+  
+  }

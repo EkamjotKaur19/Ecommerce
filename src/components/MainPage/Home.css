@@ -3,6 +3,13 @@
   line-height: 55px;
   margin: 50px 0 20px 0;
 }
+.boxx{
+  color:white;
+}
+.text-white{
+  color:white;
+}
+
 .homeSlide p {
   margin: 20px 0;
 }
@@ -26,4 +33,33 @@
   top: 2px;
   left: 0;
   margin: auto;
+}
+
+@media only screen and (max-width:500px) {
+  .homeSlide {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    width:100vw;
+  }
+
+  .catg-box{
+    width:80vw;
+
+  }
+
+  .slide-head, .slide-para{
+    visibility: hidden;
+
+  }
+
+  .slide-box{
+    width:120vw;
+  }
+
+  .slide-right{
+    width:30%;
+    height:30%;
+  }
 }

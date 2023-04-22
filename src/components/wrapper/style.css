@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
 .wrapper {
   text-align: center;
+  color:dark;
+}
+.white{
+  color:white;
+}
+.black{
+  color:black;
+}
+.dark{
+  color:black;
 }
 .wrapper .img {
   margin: auto;
@@ -22,3 +35,36 @@
   margin-top: 20px;
   color: grey;
 }
+hr {
+  border: none;
+  height: 0px;
+  box-shadow: 0 1px 4px 1px cornflowerblue;
+  margin-bottom: 0;
+}
+
+.wrapper-head{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+@media only screen and (max-width:500px) {
+  .wrap-cont{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .grid2{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  .product{
+    width: 90vw;
+  }
+}
+
+
+

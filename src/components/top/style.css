@@ -10,6 +10,10 @@
   position: relative;
   width: 100%;
 }
+.flash-dark{
+  background: black;
+  color:white;
+}
 .TopCate .nametop span {
   background: #0f3460;
   color: #fff;
@@ -28,4 +32,13 @@
   color: black;
   position: absolute;
   right: 0;
+}
+
+.box-product{
+  height:150px
+}
+
+.flash-dark{
+  background: black;
+  color: white;
 }

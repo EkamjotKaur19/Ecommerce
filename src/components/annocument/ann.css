@@ -1,0 +1,30 @@
+
+.annocument-background{
+    background: #f6f9fc;
+}
+.annocument-background2{
+    background: black;
+}
+
+.boxx{
+    margin-left: 0;
+    padding: 0;
+}
+
+.img-one{
+    width:50%;
+    height: 340px;
+}
+
+.img-two{
+    width: 68%;
+    height: 340px;
+}
+
+
+@media only screen and (max-width:400px) {
+    .img-one, .img-two{
+        width:100%;
+    }
+  
+  }

@@ -1,0 +1,44 @@
+
+.new-head{
+  margin-top:10px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.flash-dark{
+  background: black;
+  color:white;
+}
+
+.NewArrivals span {
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.NewArrivals .box img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.new-img{
+  width: 60px;
+  height: 50px;
+  margin: 10px;
+  display: inline;
+}
+
+.new-pdts{
+  width: 80%;
+}
+
+
+@media only screen and (max-width:400px) {
+  .new-mob{
+    position: absolute;
+    top:170%;
+    width:100vw;
+  }
+
+}

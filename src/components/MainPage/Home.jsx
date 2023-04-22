@@ -3,13 +3,14 @@ import Categories from "./Categories"
 import "./Home.css"
 import SliderHome from "./Slider"
 
-const Home = () => {
+const Home = ({darkMode, name}) => {
   return (
     <>
       <section className='home'>
+        
         <div className='container d_flex'>
           <Categories />
-          <SliderHome />
+          <SliderHome darkMode={darkMode}/>
         </div>
       </section>
     </>
