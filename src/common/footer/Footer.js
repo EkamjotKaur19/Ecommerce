@@ -38,17 +38,17 @@ export default function Footer() {
             <h1 className="foot-right-title">Contact</h1>
             <div className="contact-item">
                 <i class="fa-solid fa-location-pin foot-icon navi"></i>
-                622 Dixie Path, South Tobinchester 98336
+                1198-D, Modeltown, Ludhiana, Punjab
             </div>
 
             <div className="contact-item">
             <i class="fa-thin fa-circle-phone-flip foot-icon"></i>
-                +1 234 56 78
+                +91 78147 76634
             </div>
 
             <div className="contact-item ">
                 <i className="fa-regular fa-envelope foot-icon env"></i>
-                contact@lama.dev
+                ekamjot.chugh1004@gmail.com
             </div>
         </div>
     </div>

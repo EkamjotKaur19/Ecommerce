@@ -89,9 +89,11 @@ function App() {
           <Route path='/about' exact>
             <About darkMode={darkMode}/>
           </Route>
+
           <Route path='/contact' exact>
             <Contact darkMode={darkMode}/>
           </Route>
+          
 
           <Route path='/register' exact>
             <Signup />

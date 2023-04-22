@@ -8,6 +8,10 @@ import './Contact.css'
 const Contact = ({darkMode}) => {
   const form = useRef();
 
+  const handleSend = () =>{
+    alert("Mail has been sent!!")
+  }
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -30,19 +34,54 @@ const Contact = ({darkMode}) => {
   };
 
   return (
-    <div className="bg-contact">
-    <div className={!darkMode?"contact-form" :"contact-form-dark"}>
+    <>
+
+    <div className="containerc">
+      <div className="contact-parent">
+        <div className="contact-child child1">
+            <p>
+              <i className="fas fa-map-marker-alt"></i> Address <br />
+              <span>1198-D, Modeltown Extension
+              <br />
+              Ludhiana, Punjab
+              </span>
+            </p>
+            <p>
+              <i className="fas fa-phone-alt"></i> Let's Talk <br />
+              <span>+91 78147 76634</span>
+            </p>
+            <p>
+              <i className=" far fa-envelope"></i> General Support <br />
+              <span>ekamjot.chugh1004@gmail.com</span>
+            </p>
+        </div>
+        <div className="contact-child child2">
+            <div className={!darkMode?"contact-form" :"contact-form-dark"}>
       <form ref={form} onSubmit={sendEmail} className='form2' >
-        <label>Name</label>
-        <input type="text" name="user_name" className="cont-ip" />
-        <label>Email</label>
-        <input type="email" name="user_email" className="cont-ip"/>
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+
+      <div className="inside-contact">
+            <h2>Contact Us</h2>
+            <h3>
+               <span id="confirm"/>
+            </h3>
+            <p>Name *</p>
+            <input id="txt_name" name="user_name" type="text" Required="required"/>
+            <p>Email *</p>
+            <input id="txt_email" name="email" type="text" Required="required"/>
+            <p>Phone *</p>
+            <input id="txt_phone" type="text" Required="required"/>
+            
+            <label>Message</label>
+            <textarea name="message" />
+        <input type="submit" value="Send" onClick={handleSend} />
+         </div>
       </form>
     </div>
+        </div>
+      </div>
     </div>
+
+    </>
   );
 };
 
